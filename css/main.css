@@ -1,0 +1,22 @@
+body {
+    font-family: Tahoma;
+}
+
+.button {
+    padding: 15px;
+    border: none;
+    background-color: #c85b0b;
+    color: #FFF;
+    width: 250px;
+    cursor: pointer;
+}
+
+h1 {
+    padding-top: 20px;
+    color: #FFF;
+    text-align: center;
+}
+
+h2 {
+    color: #FFF;
+}

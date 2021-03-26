@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Catch The Ball</title>
+	<link rel="stylesheet" href="css/game.css"/>
+</head>
+
+<body>
+
+	<div id="game_over" class="game_over" style="display:none;">
+		<center>
+			<h3>Game Over</h3>
+		</center>
+		<center><a href="index.html"><button class="button" type="button">Play Again</button></a></center>
+
+		<br /><br />
+		<div style="padding:10px;">
+			<h3>Your Score : <span id="nowscore"></span></h3>
+			<br />
+			<h3>High Score : <span id="highscore"></span></h3>
+		</div>
+	</div>
+
+	<canvas id="game" width="600" height="400" style="border:1px solid #d3d3d3;"></canvas>
+	<div class="hearts">
+		<div class="heart" id="heart1"></div>
+		<div class="heart" id="heart2"></div>
+		<div class="heart" id="heart3"></div>
+		<div class="heart" id="heart4"></div>
+		<div class="heart" id="heart5"></div>
+
+	</div>
+
+	<h3>Score : <span id="score">0</span></h3>
+	<h3>Missed : <span id="missed">0</span></h3>
+
+	<script src="js/game.js"></script>
+
+</body>
+
+</html>
