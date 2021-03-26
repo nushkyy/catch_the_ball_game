@@ -9,3 +9,5 @@ Introduction
 - Show night background for night and normal background for other time
 - Catch the ball in basket
 - Game speed will increase slowly
+
+**THIS PROJECT IS ONLY TO SHOWCASE MY PROJECTS CREATED, PLEASE DO NOT COPY, MODIFY THE CODINGS**
